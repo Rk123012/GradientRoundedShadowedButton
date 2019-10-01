@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.rkjony.gradientroundedconrnerbutton.CustomButton
+        android:id="@+id/custom_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        app:button_end_color="#00ff00"
+        app:button_gradient_orientation="LEFT_RIGHT"
+        app:button_is_shadowed="false"
+        app:button_press_end_color="#EEE5DE"
+        app:button_press_start_color="#EEA9B8"
+        app:button_radius="8dp"
+        app:button_shadow_angle="90"
+        app:button_shadow_color="#f00"
+        app:button_shadow_distance="5dp"
+        app:button_shadow_radius="8dp"
+        app:button_start_color="#ff0000"
+        app:button_text="Click me"
+        app:button_text_color="#fff"
+        app:button_text_padding="8dp"
+        app:button_text_size="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
