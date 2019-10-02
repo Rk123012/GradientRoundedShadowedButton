@@ -3,6 +3,9 @@
 
 This android library is library for custom button with gradient color, rounded and shadow
 
+# Screenshot
+![Screenshot 2019-10-02 at 11 54 58 AM](https://user-images.githubusercontent.com/30391660/66021297-ff2c3900-e50b-11e9-893e-cfac4781b7a9.png)
+
 ## Getting Started
 Firstly add the below lines in build.gradle
 
